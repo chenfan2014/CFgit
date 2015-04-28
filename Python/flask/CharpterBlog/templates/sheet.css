@@ -1,0 +1,39 @@
+container{
+    width:500px
+}
+div #header {
+    background-color:#99bbbb;
+    width:500px;
+}
+div #menu {
+    background-color:#ffff99; 
+    height:500px; 
+    width:100px; 
+    float:left;
+}
+div #content {
+    background-color:#EEEEEE; 
+    height:500px; 
+    width:400px; 
+    float:left;
+}
+div #footer {
+    width : 500px;
+    background-color:#99bbbb; 
+    clear:both; 
+    text-align:center;
+}
+h1 {
+    margin-bottom:0;
+}
+h2 {
+    margin-bottom:0; 
+    font-size:14px;
+}
+ul {
+    margin:0;
+}
+li {
+    margin-left : -25px;
+    text-align : left;
+}   

@@ -1,0 +1,11 @@
+CC = g++
+CFLASS = -Isub -Iadd -O2 #-O2是优化的意思
+OBJS = add/add.o sub/sub.o main.o
+TARGET = cacu
+RM = rm -f
+$(TARGET) : $(OBJS)
+	$(CC) -o $(TARGET) $(OBJS) $(CFLASS)
+$(OBJS) : %.o:%.c
+	$(CC) -c %(CFLASS) $< -o $@
+clean:
+	-$(RM) $(OBJS) $(TARGET)

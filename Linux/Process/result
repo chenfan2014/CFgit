@@ -1,0 +1,6 @@
+a write to stdout
+Before fork 
+parent pid
+Son process 
+3867 : 3866 : 7 : 89
+3866 : 3357 : 6 : 88

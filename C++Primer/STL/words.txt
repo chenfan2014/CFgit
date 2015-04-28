@@ -1,0 +1,11 @@
+s you may have guessed by now, this is the default Tomcat home page. It can be found on the local filesystem at:
+
+$CATALINA_HOME/webapps/ROOT/index.html
+
+where "$CATALINA_HOME" is the root of the Tomcat installation directory. If you're seeing this page, and you don't think you should be, then you're either a user who has arrived at new installation of Tomcat, or you're an administrator who hasn't got his/her setup quite right. Providing the latter is the case, please refer to the Tomcat Documentation for more detailed setup and administration information than is found in the INSTALL file.
+
+NOTE: For security reasons, using the manager webapp is restricted to users with role "manager". Users are defined in $CATALINA_HOME/conf/tomcat-users.xml.
+
+Included with this release are a host of sample Servlets and JSPs (with associated source code), extensive documentation, and an introductory guide to developing web applications.
+
+Tomcat mailing lists are available at the Tomcat project web site:

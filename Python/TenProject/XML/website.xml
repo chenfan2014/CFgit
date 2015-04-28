@@ -1,0 +1,25 @@
+<website>
+    <page name = "index" title = "HomePage">
+        <h1>Welcome to my HomePage</h1>
+        <p> This is the first of the website</p>
+        <ul>
+            <li><a href = "www.baidu.com">Baidu</a></li>
+            <li><a href = "www.google.com">Google</a></li>
+            <li><a href = "www.scun.edu.cn">SCNU</a></li>
+        </ul>
+    </page>
+
+    <directory name = "interestes">
+        <page name = "Second" title = "Second Page">
+            <h1>Welcome to the second Page</h1>
+        </page>
+
+        <page name = "Third" title = "Third Page">
+            <h1>Welcome to the Third Page</h1>
+        </page>
+
+        <page name = "Fourth" title = "Fourth Page">
+            <h1>Welcome to the fourth Page</h1>
+        </page>
+    </directory>
+</website>
