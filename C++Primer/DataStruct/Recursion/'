@@ -1,0 +1,21 @@
+#include <iostream>
+#include <string>
+#include <vector>
+
+// 这个是实现我们的阶乘
+
+int factorial(int n)
+{
+    while(n > 1){
+        return n * factorial(n - 1);
+    }
+}
+
+using namespace std;
+
+int main(int argc, const char *argv[])
+{
+    cout << factorial(10) << endl;
+    cout << factorial(4) << endl;
+    return 0;
+}
